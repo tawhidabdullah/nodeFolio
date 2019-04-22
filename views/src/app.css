@@ -1,0 +1,35 @@
+html {
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1f2123;
+}
+
+h1,
+h2 {
+  color: #4f5459;
+  margin: 5px 0 20px 0;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.light {
+  color: #b6babe;
+}

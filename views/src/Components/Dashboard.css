@@ -1,0 +1,187 @@
+
+/** MAIN CSS **/
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clear-all {
+  clear: both;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.user-banner {
+  width: 180px;
+  padding: 1px 0px 1px 0px;
+  background: #fff;
+  text-align: center;
+}
+.user-banner img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 5px;
+  width: 50px;
+  margin-right: 5px;
+  border-radius: 100%;
+}
+.user-banner .username {
+  font-weight: bold;
+}
+
+/** IMPORT HELPER CSS **/
+/** IMPORT BASE CSS **/
+
+#nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  color: #fff;
+  background: #1f2123;
+  z-index: +10;
+}
+#nav a {
+  color: #737e89;
+  text-decoration: none;
+}
+#nav ul {
+  list-style-type: none;
+  padding: 12px;
+  margin: 0;
+  font-weight: 600;
+}
+#nav ul li.head {
+  color: #50585f;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 6px 12px;
+}
+#nav ul li a {
+  display: block;
+  padding: 6px 12px;
+  margin: 5px 0;
+  border-radius: 2px;
+}
+#nav ul li a i {
+  margin-right: 8px;
+}
+#nav ul li a:hover {
+  background: #2b2e31;
+}
+#nav ul li.active a {
+  color: #fff;
+  background: #2da5ee;
+}
+
+#main {
+  margin-left: 250px;
+  margin-top: -8px;
+  overflow: hidden;
+}
+
+#main #content {
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .user-banner {
+    width: 66px;
+    padding: 1px 0px 1px 0px;
+    background: #2dcc70;
+    text-align: center;
+  }
+  .user-banner img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5px;
+    width: 50px;
+    margin-right: 5px;
+    border-radius: 100%;
+  }
+  .user-banner .username {
+    font-size: 75%;
+    font-weight: bold;
+  }
+
+  #nav {
+    z-index: +10;
+    width: 66px;
+  }
+  #nav li.head,
+  #nav li span {
+    display: none;
+  }
+
+  #main {
+    margin-left: 66px;
+  }
+
+  .post .avatar {
+    width: 50px;
+  }
+}
+@media (max-width: 320px) {
+  .user-banner {
+    width: 100%;
+    padding: 1px 0px 1px 0px;
+    background: #2dcc70;
+    text-align: center;
+  }
+  .user-banner img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    margin-right: 5px;
+    border-radius: 100%;
+  }
+  .user-banner .username {
+    display: inline;
+    font-weight: bold;
+  }
+
+  #nav {
+    z-index: +10;
+    width: 100%;
+    bottom: auto;
+  }
+  #nav li.head,
+  #nav li span {
+    display: none;
+  }
+  #nav ul {
+    padding: 3px 5px;
+  }
+  #nav li {
+    display: inline-block;
+  }
+  #nav li a {
+    padding: 6px 5px;
+  }
+  #nav li a i {
+    margin: 0 !important;
+  }
+
+  #main {
+    padding: 50px 0 0 0;
+    margin: 0;
+  }
+}
+
+.box {
+  position: relative;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
