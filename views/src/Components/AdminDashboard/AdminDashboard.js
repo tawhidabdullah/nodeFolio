@@ -88,13 +88,8 @@ class AdminDashboard extends Component {
       <div>
         <div id="nav" className="side-nav sidenav">
           <div className="sidenav__profile ">
-            {/* <img
-            src='///'
-              className="profile-avatar sidenav__profile-avatar"
-              alt="*"
-            /> */}
-
-            <div className="sidenav__profile-title text-light">Tawhid</div>
+            <div className="profile-avatar sidenav__profile-avatar" />
+            <div className="sidenav__profile-title text-light">Tawhid Abdullah</div>
           </div>
           <ul>
             <li
