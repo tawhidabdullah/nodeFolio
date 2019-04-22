@@ -89,7 +89,9 @@ class AdminDashboard extends Component {
         <div id="nav" className="side-nav sidenav">
           <div className="sidenav__profile ">
             <div className="profile-avatar sidenav__profile-avatar" />
-            <div className="sidenav__profile-title text-light">Tawhid Abdullah</div>
+            <div className="sidenav__profile-title text-light">
+              Tawhid Abdullah
+            </div>
           </div>
           <ul>
             <li
@@ -98,7 +100,7 @@ class AdminDashboard extends Component {
             >
               <a>
                 <i className="fa fa-fw fa-dashboard" />
-                <span>Dashboard</span>
+                <span>WELCOME</span>
               </a>
             </li>
             <li
@@ -107,7 +109,7 @@ class AdminDashboard extends Component {
             >
               <a href="#">
                 <i className="fa fa-fw fa-edit" />
-                <span className="swatch light-grey">Projects</span>
+                <span className="swatch light-grey">PROJECTS</span>
               </a>
             </li>
             <li
@@ -116,7 +118,7 @@ class AdminDashboard extends Component {
             >
               <a href="#">
                 <i className="fa fa-fw fa-pencil" />
-                <span className="swatch light-grey">Resume</span>
+                <span className="swatch light-grey">RESUME</span>
               </a>
             </li>
             <li
@@ -125,7 +127,7 @@ class AdminDashboard extends Component {
             >
               <a href="#">
                 <i className="fa fa-fw fa-user" />
-                <span>Users</span>
+                <span>BLOG</span>
               </a>
             </li>
             <li
@@ -134,7 +136,7 @@ class AdminDashboard extends Component {
             >
               <a href="#">
                 <i className="fa fa-fw fa-money" />
-                <span>Payments</span>
+                <span>CONTACT</span>
               </a>
             </li>
             <li
@@ -143,7 +145,7 @@ class AdminDashboard extends Component {
             >
               <a href="#">
                 <i className="fa fa-fw fa-cog" />
-                <span>Settings</span>
+                <span>SETTINGS</span>
               </a>
             </li>
           </ul>

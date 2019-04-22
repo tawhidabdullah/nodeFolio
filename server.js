@@ -1,6 +1,8 @@
 const express = require("express");
 const bodyparser = require("body-parser");
 
+const app = express();
+
 app.use(bodyparser.urlencoded({ extended: false }));
 app.use(bodyparser.json());
 
@@ -14,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-const port = process.env.PORT || 10000;
+const port = process.env.PORT || 1000;
 
 app.listen(port, () => {
   console.log(`Hey Tawhid Abdullah, server is runnig on ${port}...`);
