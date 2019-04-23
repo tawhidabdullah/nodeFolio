@@ -71,7 +71,7 @@ a {
   border-radius: 0 0 5px 5px;
   display: flex;
   padding: 40px;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .table-wrapper {
@@ -264,7 +264,7 @@ search bar ///////////////////////////////
 .searchTerm {
   width: 100%;
   border-right: none;
-  padding: 10px;
+  padding: 20px;
   height: 20px;
   border-radius: 5px 0 0 5px;
   outline: none;
@@ -278,13 +278,13 @@ search bar ///////////////////////////////
   color: #fb5555;
 }
 
-
 .searchButton {
   background: #fb5555;
   text-align: center;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
+  padding: 0 10px;
 }
 
 .searchButton__red {
@@ -294,10 +294,6 @@ search bar ///////////////////////////////
 }
 
 /*Resize the wrap to see the search bar change!*/
-
-
-
-
 
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
 * {
@@ -318,7 +314,7 @@ search bar ///////////////////////////////
   padding: 25px;
   border-radius: 25px;
   height: 400px;
-  transition: all .3s;
+  transition: all 0.3s;
   margin-bottom: 30px;
 }
 @media screen and (max-width: 992px) {
