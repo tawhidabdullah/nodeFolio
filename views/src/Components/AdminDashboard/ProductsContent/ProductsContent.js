@@ -36,7 +36,7 @@ class ProductsContent extends Component {
   render() {
     return (
       <div>
-        <div className="container">
+        <div className="containerx">
           <div className="header-wrapper">
             <div className="title">Some recent, Projects!</div>
             <div class="produc-wrap ">

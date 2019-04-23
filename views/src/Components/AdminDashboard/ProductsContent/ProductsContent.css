@@ -35,7 +35,7 @@ a {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-.container {
+.containerx {
   margin: auto;
   min-width: 960px;
   padding: 10px;
@@ -322,7 +322,39 @@ search bar ///////////////////////////////
     max-width: 680px;
     height: 400px;
   }
+
+  .content-wrapper {
+  }
 }
+
+@media screen and (max-width: 1178px) {
+  .blog-slider {
+    max-width: 740px;
+    max-height: 370px;
+  }
+}
+
+@media screen and (max-width: 1128px) {
+  .blog-slider {
+    max-width: 650px;
+    max-height: 370px;
+  }
+
+  .blog-slider__content {
+    margin-left: -80px;
+    text-align: center;
+    padding: 0 30px;
+  }
+  .blog-slider__button {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  .blog-slider__button-code {
+    width: 60%;
+    margin-left: 
+  }
+}
+
 @media screen and (max-width: 768px) {
   .blog-slider {
     min-height: 500px;
